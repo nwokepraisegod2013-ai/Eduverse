@@ -706,5 +706,6 @@ $adminEmail = $admin['email'] ?? 'admin@eduverse.com';
     };
   </script>
   <script src="js/admin.js"></script>
+    <script src="js/admin-saas.js"></script>
 </body>
 </html>

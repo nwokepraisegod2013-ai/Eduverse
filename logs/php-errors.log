@@ -63,3 +63,105 @@ Stack trace:
 [23-Apr-2026 20:49:49 Europe/Berlin] ⚠️ Plain text password matched for: admin
 [23-Apr-2026 20:49:49 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1
 [23-Apr-2026 20:50:13 Europe/Berlin] 🔓 Logout: User=admin, Role=admin
+[30-Apr-2026 10:13:27 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[30-Apr-2026 10:13:28 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[30-Apr-2026 12:30:15 Europe/Berlin] Login attempt: username=admin, found=yes
+[30-Apr-2026 12:30:15 Europe/Berlin] ⚠️ Plain text password matched for: admin
+[30-Apr-2026 12:30:15 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1
+[30-Apr-2026 13:35:09 Europe/Berlin] 🔓 Logout: User=admin, Role=admin
+[30-Apr-2026 23:06:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in C:\xampp\htdocs\school-portal\check-fix-subdomain.php on line 63
+[30-Apr-2026 23:06:28 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\check-fix-subdomain.php on line 8
+[30-Apr-2026 23:06:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\check-fix-subdomain.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\check-fix-subdomain.php on line 8
+[01-May-2026 22:40:31 Europe/Berlin] Load plans error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'monthly_price' in 'field list'
+[01-May-2026 22:45:02 Europe/Berlin] Login attempt: username=admin, found=yes
+[01-May-2026 22:45:02 Europe/Berlin] ⚠️ Plain text password matched for: admin
+[01-May-2026 22:45:02 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1
+[01-May-2026 22:45:55 Europe/Berlin] Load plans error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'monthly_price' in 'field list'
+[01-May-2026 22:55:14 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\fix.php on line 7
+[01-May-2026 22:55:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\fix.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\fix.php on line 7
+[01-May-2026 22:56:14 Europe/Berlin] Load plans error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'has_live_classes' in 'field list'
+[02-May-2026 13:13:04 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 13:13:17 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 15:16:18 Europe/Berlin] Login attempt: username=admin, found=yes
+[02-May-2026 15:16:18 Europe/Berlin] ⚠️ Plain text password matched for: admin
+[02-May-2026 15:16:18 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1
+[02-May-2026 15:17:28 Europe/Berlin] Load plans error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'has_live_classes' in 'field list'
+[02-May-2026 15:36:44 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\fix-database-structure.php on line 7
+[02-May-2026 15:36:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\fix-database-structure.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\fix-database-structure.php on line 7
+[02-May-2026 15:37:44 Europe/Berlin] Load plans error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'has_live_classes' in 'field list'
+[02-May-2026 15:38:20 Europe/Berlin] Load plans error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'has_live_classes' in 'field list'
+[02-May-2026 16:55:57 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 16:57:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 17:00:05 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:00:38 Europe/Berlin] 🔓 Logout: User=admin, Role=admin
+[02-May-2026 17:03:20 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 17:04:47 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 17:05:40 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 17:05:56 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 17:11:27 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 17:11:49 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:23:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:23:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 20:23:24 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\check-hosting-plans.php on line 6
+[02-May-2026 20:23:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\check-hosting-plans.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\check-hosting-plans.php on line 6
+[02-May-2026 18:40:01 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:40:30 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:41:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:42:43 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:42:58 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 18:58:15 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:12:55 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:15:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:15:58 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:17:43 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:18:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:20:31 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:20:34 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:20:36 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:20:39 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:20:40 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:21:43 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:21:44 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:22:10 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:22:11 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:25:25 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:25:27 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:25:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:31:39 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:31:40 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:31:41 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:34:14 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:37:39 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:39:06 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:39:08 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:39:48 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:39:51 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:39:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:40:41 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:44:24 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:44:26 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:44:53 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:46:24 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:46:28 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[02-May-2026 19:49:14 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\NotificationController, because the name is already in use in C:\Users\DELL\Documents\notification-system\app\Http\Controllers\Controller.php on line 7
+[03-May-2026 14:40:04 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 14:40:44 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 14:47:02 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 14:47:04 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 14:52:40 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 19:41:07 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 19:41:09 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[03-May-2026 21:41:30 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[03-May-2026 21:42:07 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'

@@ -165,3 +165,141 @@ Stack trace:
 [03-May-2026 19:41:09 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
 [03-May-2026 21:41:30 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
 [03-May-2026 21:42:07 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 18:07:51 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 18:09:26 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal/../php/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\live-class-dashboard.php on line 8
+[04-May-2026 18:09:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal/../php/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\live-class-dashboard.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\live-class-dashboard.php on line 8
+[04-May-2026 18:10:18 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 18:11:26 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 20:50:39 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 21:04:35 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 21:13:52 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[04-May-2026 19:38:36 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 19:56:25 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 19:58:38 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 19:59:10 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 19:59:31 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 20:00:47 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 20:04:12 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 20:11:02 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 21:58:24 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:07:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:07:56 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:08:24 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:17:40 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:17:41 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:27:26 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:27:26 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:27:50 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:27:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:28:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:28:01 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:29:39 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:29:39 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\NotificationController, because the name is already in use in C:\dev\notification-system\app\Http\Controllers\Controller.php on line 8
+[04-May-2026 22:34:47 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:34:54 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:35:02 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:38:00 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:38:08 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:38:16 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:38:30 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:40:23 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:40:26 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:40:40 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:42:57 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:45:05 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[04-May-2026 22:47:53 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 10:45:42 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-May-2026 10:58:12 Europe/Berlin] Unhandled promise rejection with RuntimeException: Failed to execute git clone --no-checkout -- https://git...obr:x-oauth-basic@github.com/laravel/pint.git C:\dev\notification-system\vendor\laravel\pint
+
+Cloning into 'C:\dev\notification-system\vendor\laravel\pint'...
+ in phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Util/Git.php:657
+Stack trace:
+#0 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Util/Git.php(371): Composer\Util\Git->throwException('Failed to execu...', 'https://github....')
+#1 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Util/Git.php(94): Composer\Util\Git->runCommand(Array, 'https://github....', 'C:\\dev\\notifica...', true, '')
+#2 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Downloader/GitDownloader.php(128): Composer\Util\Git->runCommands(Array, 'https://github....', 'C:\\dev\\notifica...', true)
+#3 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Downloader/VcsDownloader.php(137): Composer\Downloader\GitDownloader->doInstall(Object(Composer\Package\CompletePackage), 'C:\\dev\\notifica...', 'https://github....')
+#4 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Downloader/DownloadManager.php(268): Composer\Downloader\VcsDownloader->install(Object(Composer\Package\CompletePackage), 'C:\\dev\\notifica...')
+#5 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/LibraryInstaller.php(278): Composer\Downloader\DownloadManager->install(Object(Composer\Package\CompletePackage), 'C:\\dev\\notifica...')
+#6 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/LibraryInstaller.php(149): Composer\Installer\LibraryInstaller->installCode(Object(Composer\Package\CompletePackage))
+#7 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/InstallationManager.php(468): Composer\Installer\LibraryInstaller->install(Object(Composer\Repository\InstalledFilesystemRepository), Object(Composer\Package\CompletePackage))
+#8 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/InstallationManager.php(382): Composer\Installer\InstallationManager->install(Object(Composer\Repository\InstalledFilesystemRepository), Object(Composer\DependencyResolver\Operation\InstallOperation))
+#9 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/vendor/react/promise/src/Internal/FulfilledPromise.php(47): Composer\Installer\InstallationManager->Composer\Installer\{closure}(NULL)
+#10 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/InstallationManager.php(381): React\Promise\Internal\FulfilledPromise->then(Object(Closure))
+#11 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/InstallationManager.php(323): Composer\Installer\InstallationManager->executeBatch(Object(Composer\Repository\InstalledFilesystemRepository), Array, Array, true, true, Array)
+#12 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer/InstallationManager.php(221): Composer\Installer\InstallationManager->downloadAndExecuteBatch(Object(Composer\Repository\InstalledFilesystemRepository), Array, Array, true, true, false, Array)
+#13 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer.php(847): Composer\Installer\InstallationManager->execute(Object(Composer\Repository\InstalledFilesystemRepository), Array, true, true, false)
+#14 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer.php(657): Composer\Installer->doInstall(Object(Composer\Repository\InstalledFilesystemRepository), true)
+#15 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Installer.php(302): Composer\Installer->doUpdate(Object(Composer\Repository\InstalledFilesystemRepository), true)
+#16 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Command/RequireCommand.php(494): Composer\Installer->run()
+#17 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Command/RequireCommand.php(336): Composer\Command\RequireCommand->doUpdate(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput), Object(Composer\IO\ConsoleIO), Array, 'require', 'require-dev')
+#18 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/vendor/symfony/console/Command/Command.php(298): Composer\Command\RequireCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand(Object(Composer\Command\RequireCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Console/Application.php(439): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/vendor/symfony/console/Application.php(171): Composer\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/src/Composer/Console/Application.php(139): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 phar://C:/ProgramData/ComposerSetup/bin/composer.phar/bin/composer(112): Composer\Console\Application->run()
+#25 C:\ProgramData\ComposerSetup\bin\composer.phar(29): require('phar://C:/Progr...')
+#26 {main}
+[05-May-2026 08:59:59 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:01:55 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:10:42 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:13:55 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:13:57 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:14:06 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:27:07 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:32:08 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 09:32:39 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[05-May-2026 11:35:51 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-May-2026 21:05:59 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-May-2026 21:06:41 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-May-2026 21:16:56 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-May-2026 21:17:11 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-May-2026 21:40:35 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[06-May-2026 14:48:46 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[06-May-2026 15:23:47 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[06-May-2026 15:29:55 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[06-May-2026 23:26:51 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[06-May-2026 23:31:07 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[06-May-2026 23:31:56 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[07-May-2026 11:14:04 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[07-May-2026 11:14:17 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[07-May-2026 11:34:03 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[07-May-2026 11:34:32 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[07-May-2026 17:43:07 Europe/Berlin] PHP Warning:  require_once(../../../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:43:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../../../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:44:47 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal\api\v1\api-keys/../../../config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:44:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal\api\v1\api-keys/../../../config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:45:29 Europe/Berlin] PHP Warning:  require_once(/php/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:45:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '/php/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:47:18 Europe/Berlin] PHP Warning:  require_once(/php/config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:47:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '/php/config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:49:37 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\school-portal\api\v1\api-keys/../../../../php/config.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:49:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\school-portal\api\v1\api-keys/../../../../php/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 5
+[07-May-2026 17:51:02 Europe/Berlin] PHP Warning:  Undefined variable $conn in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 24
+[07-May-2026 17:51:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\school-portal\api\v1\api-keys\generate.php on line 24
+[07-May-2026 17:58:07 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[08-May-2026 11:33:24 Europe/Berlin] Login attempt: username=admin, found=yes
+[08-May-2026 11:33:24 Europe/Berlin] ⚠️ Plain text password matched for: admin
+[08-May-2026 11:33:24 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1

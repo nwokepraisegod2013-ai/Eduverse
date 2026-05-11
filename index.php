@@ -2,6 +2,7 @@
 /* ============================================
    EDUVERSE SAAS PLATFORM – PRODUCTION LANDING PAGE
    Complete multi-tenant school management system
+   WITH FREE LIVE CLASS ACCESS
    ============================================ */
 
 session_start();
@@ -120,6 +121,13 @@ $platformTagline = 'Empowering Schools with Technology';
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title><?php echo htmlspecialchars($platformName); ?> - Complete School Management Solution</title>
   <meta name="description" content="Complete school management platform with student portal, live classes, results management, and more. Get your free .eduverse.ng domain today!">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/favicon.png">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -234,9 +242,48 @@ $platformTagline = 'Empowering Schools with Technology';
       transform: translateY(-5px);
       border-color: var(--sky);
     }
+    /* Floating Live Class Button */
+    .floating-live-class {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 9999;
+      animation: pulse 2s infinite;
+    }
+    .floating-live-class .btn {
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #ec4899 0%, #8b5cf6 100%);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 10px 30px rgba(236, 72, 153, 0.4);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .floating-live-class .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(236, 72, 153, 0.6);
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
   </style>
 </head>
 <body>
+
+  <!-- Floating Live Class Button -->
+  <div class="floating-live-class">
+    <a href="live-class-dashboard.php" class="btn">
+      <span style="font-size:1.5rem;">🎥</span>
+      <span>Host Free Class</span>
+    </a>
+  </div>
 
   <!-- Page loader -->
   <div class="page-loader" id="pageLoader">
@@ -264,13 +311,14 @@ $platformTagline = 'Empowering Schools with Technology';
     <div class="nav-links">
       <a href="#features" class="nav-link">Features</a>
       <a href="#pricing" class="nav-link">Pricing</a>
-      <a href="#live-classes" class="nav-link">🎥 Live Classes</a>
+      <a href="live-class-dashboard.php" class="nav-link" style="color:#ec4899;font-weight:700;">🎥 Free Live Classes</a>
       <a href="#schools" class="nav-link">Schools</a>
     </div>
     <button class="hamburger" id="hamburger" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
     <div style="display:flex;gap:0.5rem;">
+      <a href="live-class-dashboard.php" class="nav-btn" style="background:linear-gradient(135deg,#ec4899,#8b5cf6);border:none;">🎥 Host Class</a>
       <a href="login.php" class="nav-btn btn-login">Login</a>
       <a href="portal-school-signup.php" class="nav-btn btn-primary">Get Started</a>
     </div>
@@ -290,7 +338,7 @@ $platformTagline = 'Empowering Schools with Technology';
         </p>
         <div class="hero-cta">
           <a href="portal-school-signup.php" class="btn btn-primary ripple">Start 14-Day Free Trial 🎯</a>
-          <a href="#pricing" class="btn btn-secondary">View Pricing →</a>
+          <a href="live-class-dashboard.php" class="btn btn-secondary" style="background:linear-gradient(135deg,#ec4899,#8b5cf6);border:none;">🎥 Try Live Classes Free</a>
         </div>
         <div class="hero-stats">
           <div class="stat-item"><span class="counter" data-target="<?php echo $totalSchools; ?>">0</span><span>Schools</span></div>
@@ -372,13 +420,13 @@ $platformTagline = 'Empowering Schools with Technology';
   <section class="live-class-banner" id="live-classes">
     <div class="container" style="text-align:center;position:relative;z-index:1;">
       <div class="section-tag" style="background:rgba(255,255,255,0.2);display:inline-block;margin-bottom:1rem;">
-        🎥 NEW FEATURE
+        🎥 100% FREE - NO LOGIN REQUIRED
       </div>
       <h2 style="font-size:3rem;font-family:var(--font-title);margin-bottom:1rem;color:white;">
-        Host Live Virtual Classes
+        Host Live Virtual Classes Instantly
       </h2>
       <p style="font-size:1.2rem;max-width:700px;margin:0 auto 2rem;color:rgba(255,255,255,0.95);">
-        Built-in video conferencing powered by Jitsi Meet. No additional software or subscriptions needed!
+        No registration, no payment, no limits! Start teaching online in seconds with our free Jitsi Meet-powered platform.
       </p>
       
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:2rem;max-width:900px;margin:2rem auto;">
@@ -409,9 +457,18 @@ $platformTagline = 'Empowering Schools with Technology';
         </div>
       </div>
       
-      <a href="portal-school-signup.php" class="btn btn-primary btn-large" style="background:white;color:#8b5cf6;margin-top:2rem;">
-        Try Live Classes Free →
-      </a>
+      <div style="margin-top:3rem;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        <a href="live-class-dashboard.php" class="btn btn-primary btn-large" style="background:white;color:#8b5cf6;font-size:1.2rem;padding:1rem 2.5rem;">
+          🎥 Host a Free Class Now →
+        </a>
+        <a href="live-class-dashboard.php" class="btn btn-secondary btn-large" style="background:rgba(255,255,255,0.2);border:2px solid white;font-size:1.2rem;padding:1rem 2.5rem;">
+          🔗 Join a Class
+        </a>
+      </div>
+      
+      <p style="margin-top:2rem;color:rgba(255,255,255,0.9);font-size:0.9rem;">
+        ✨ <strong>Try it now - No account needed!</strong> Perfect for teachers, tutors, students, and anyone who wants to connect.
+      </p>
     </div>
   </section>
 
@@ -613,11 +670,11 @@ $platformTagline = 'Empowering Schools with Technology';
       <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); color: var(--text-muted);">
         <p>&copy; <?php echo date('Y'); ?> <?php echo htmlspecialchars($platformName); ?>. All rights reserved.</p>
         <div style="margin-top:1rem;display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;">
+          <a href="live-class-dashboard.php" style="color:#ec4899;font-weight:700;">🎥 Free Live Classes</a>
           <a href="admin.php" style="color:var(--text-muted);">Admin Panel</a>
           <a href="portal-school-signup.php" style="color:var(--text-muted);">Register School</a>
           <a href="login.php" style="color:var(--text-muted);">Student Login</a>
           <a href="#pricing" style="color:var(--text-muted);">Pricing</a>
-          <a href="#features" style="color:var(--text-muted);">Features</a>
         </div>
       </div>
     </div>

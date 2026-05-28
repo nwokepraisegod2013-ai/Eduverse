@@ -1,3 +1,4 @@
+```php id="0tqfht"
 <?php
 /**
  * Paystack Payment Integration
@@ -99,9 +100,13 @@ class PaystackAPI {
      * Verify webhook signature
      */
     public function verifyWebhook($payload, $signature) {
-        $webhookSecret = $this->getSetting('paystack_webhook_secret');
-        $computedHash = hash_hmac('sha512', $payload, $webhookSecret);
-        
+
+        $computedHash = hash_hmac(
+            'sha512',
+            $payload,
+            $this->secretKey
+        );
+
         return hash_equals($computedHash, $signature);
     }
     
@@ -146,4 +151,4 @@ class PaystackAPI {
         return $result ? $result['setting_value'] : null;
     }
 }
-```
+

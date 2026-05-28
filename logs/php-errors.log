@@ -303,3 +303,4 @@ Stack trace:
 [08-May-2026 11:33:24 Europe/Berlin] Login attempt: username=admin, found=yes
 [08-May-2026 11:33:24 Europe/Berlin] ⚠️ Plain text password matched for: admin
 [08-May-2026 11:33:24 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1
+[28-May-2026 19:11:49 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'

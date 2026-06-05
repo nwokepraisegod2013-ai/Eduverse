@@ -304,3 +304,6 @@ Stack trace:
 [08-May-2026 11:33:24 Europe/Berlin] ⚠️ Plain text password matched for: admin
 [08-May-2026 11:33:24 Europe/Berlin] ✅ Login successful: User=admin, Role=admin, IP=127.0.0.1
 [28-May-2026 19:11:49 Europe/Berlin] Index.php Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'school_type' in 'field list'
+[05-Jun-2026 20:08:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "`" in C:\xampp\htdocs\school-portal\classes\SubscriptionManager.php on line 225
+[05-Jun-2026 20:09:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "`" in classes\SubscriptionManager.php on line 225
+[05-Jun-2026 21:46:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "=", expecting end of file in Command line code on line 1

@@ -1,4 +1,3 @@
-```php id="0tqfht"
 <?php
 /**
  * Paystack Payment Integration
@@ -20,11 +19,12 @@ class PaystackAPI {
     public function initializePayment($email, $amount, $reference, $metadata = []) {
         $url = $this->baseUrl . '/transaction/initialize';
         
+        $callbackUrl = $this->getSetting('paystack_callback_url') ?: BASE_URL . '/payments/webhook.php';
         $data = [
             'email' => $email,
             'amount' => $amount * 100, // Convert to kobo
             'reference' => $reference,
-            'callback_url' => 'https://eduverse.ng/payment/callback',
+            'callback_url' => $callbackUrl,
             'metadata' => $metadata
         ];
         

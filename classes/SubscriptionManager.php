@@ -222,4 +222,3 @@ class SubscriptionManager {
         // Include renewal link with Paystack payment
     }
 }
-```
